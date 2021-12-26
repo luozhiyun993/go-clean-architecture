@@ -3,15 +3,16 @@ package service
 import (
 	"context"
 	"my-clean-rchitecture/models"
+	"my-clean-rchitecture/repo"
 	"time"
 )
 
 type articleService struct {
-	articleRepo models.IArticleRepo
+	articleRepo repo.IArticleRepo
 }
 
 // NewArticleService will create new an articleUsecase object representation of domain.ArticleUsecase interface
-func NewArticleService(a models.IArticleRepo) models.IArticleService {
+func NewArticleService(a repo.IArticleRepo) IArticleService {
 	return &articleService{
 		articleRepo: a,
 	}

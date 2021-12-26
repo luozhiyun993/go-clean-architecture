@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"my-clean-rchitecture/models"
+	"my-clean-rchitecture/service"
 	"net/http"
 	"strconv"
 	"time"
@@ -11,11 +11,11 @@ import (
 
 // ArticleHandler
 type ArticleHandler struct {
-	ArticleService models.IArticleService
+	ArticleService service.IArticleService
 }
 
 // NewArticleHandler
-func NewArticleHandler(as models.IArticleService) ArticleHandler {
+func NewArticleHandler(as service.IArticleService) ArticleHandler {
 	handler := ArticleHandler{
 		ArticleService: as,
 	}

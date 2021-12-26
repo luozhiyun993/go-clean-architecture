@@ -12,7 +12,7 @@ type mysqlArticleRepository struct {
 }
 
 // NewMysqlArticleRepository will create an object that represent the article.Repository interface
-func NewMysqlArticleRepository(DB *gorm.DB) models.IArticleRepo {
+func NewMysqlArticleRepository(DB *gorm.DB) IArticleRepo {
 	return &mysqlArticleRepository{DB}
 }
 
