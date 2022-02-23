@@ -1,4 +1,4 @@
-module my-clean-rchitecture
+module my-clean-architecture
 
 go 1.16
 

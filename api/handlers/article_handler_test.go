@@ -3,7 +3,7 @@ package handlers
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
-	"my-clean-rchitecture/mock"
+	"my-clean-architecture/mock"
 	"net/http"
 	"net/http/httptest"
 	"testing"

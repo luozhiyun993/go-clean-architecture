@@ -2,7 +2,7 @@ package repo
 
 import (
 	"context"
-	"my-clean-rchitecture/models"
+	"my-clean-architecture/models"
 	"time"
 )
 

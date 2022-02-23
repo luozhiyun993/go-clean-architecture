@@ -3,7 +3,7 @@ package repo
 import (
 	"context"
 	"gorm.io/gorm"
-	"my-clean-rchitecture/models"
+	"my-clean-architecture/models"
 	"time"
 )
 

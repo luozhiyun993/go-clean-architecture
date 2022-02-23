@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/golang/mock/gomock"
-	"my-clean-rchitecture/mock"
+	"my-clean-architecture/mock"
 	"testing"
 	"time"
 )
@@ -18,7 +18,7 @@ func Test_articleService_Fetch(t *testing.T) {
 	gomock.InOrder(
 		mockRepo.EXPECT().Fetch(context.TODO(), now, 10).Return(nil, nil),
 	)
-	
+
 	service := NewArticleService(mockRepo)
 
 	fetch, _ := service.Fetch(context.TODO(), now, 10)

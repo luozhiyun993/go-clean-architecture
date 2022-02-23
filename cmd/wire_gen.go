@@ -6,11 +6,11 @@
 package main
 
 import (
-	"my-clean-rchitecture/api"
-	"my-clean-rchitecture/api/handlers"
-	"my-clean-rchitecture/app"
-	"my-clean-rchitecture/repo"
-	"my-clean-rchitecture/service"
+	"my-clean-architecture/api"
+	"my-clean-architecture/api/handlers"
+	"my-clean-architecture/app"
+	"my-clean-architecture/repo"
+	"my-clean-architecture/service"
 )
 
 // Injectors from wire.go:

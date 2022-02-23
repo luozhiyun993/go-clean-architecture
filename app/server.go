@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"my-clean-rchitecture/api"
+	"my-clean-architecture/api"
 )
 
 type Server struct {

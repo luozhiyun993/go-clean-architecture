@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"my-clean-rchitecture/models"
-	"my-clean-rchitecture/repo"
+	"my-clean-architecture/models"
+	"my-clean-architecture/repo"
 	"time"
 )
 

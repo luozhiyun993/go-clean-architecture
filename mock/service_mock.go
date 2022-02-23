@@ -6,7 +6,7 @@ package mock
 
 import (
 	context "context"
-	models "my-clean-rchitecture/models"
+	models "my-clean-architecture/models"
 	reflect "reflect"
 	time "time"
 

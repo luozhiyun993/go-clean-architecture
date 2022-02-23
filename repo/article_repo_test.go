@@ -8,7 +8,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"log"
-	"my-clean-rchitecture/models"
+	"my-clean-architecture/models"
 	"testing"
 	"time"
 )

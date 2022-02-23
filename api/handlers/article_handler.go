@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"my-clean-rchitecture/service"
+	"my-clean-architecture/service"
 	"net/http"
 	"strconv"
 	"time"
