@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"my-clean-rchitecture/api/handlers"
+	"my-clean-architecture/api/handlers"
 )
 
 type Router struct {
